@@ -1,0 +1,10 @@
+# OptionMetrics data is licensed through WRDS and can't be redistributed
+data/raw/
+data/clean/
+output/
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.DS_Store

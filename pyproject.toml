@@ -1,0 +1,12 @@
+[project]
+name = "barrierhedge"
+version = "1.0.0"
+description = "Hedging a down-and-in put on the S&P 500 as it approaches its barrier"
+requires-python = ">=3.11"
+
+[tool.setuptools]
+packages = ["barrierhedge"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
